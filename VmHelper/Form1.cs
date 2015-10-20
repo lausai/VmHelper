@@ -40,8 +40,11 @@ namespace VmHelper
             _numHistory = 20;
             _history = new Queue<HistoryList>();
             _toCopyFiles = new List<string>();
+            string[] historyStr = new string[] {};
 
-            string[] historyStr = File.ReadAllLines(_historyPath);
+            if (File.Exists(_historyPath))
+                historyStr = File.ReadAllLines(_historyPath);
+
             JavaScriptSerializer serializer = new JavaScriptSerializer();
 
             foreach (string str in historyStr)
