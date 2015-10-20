@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VmHelper", "VmHelper\VmHelper.csproj", "{F402F069-06E8-4065-8F2A-5A1BCEBA0C8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F402F069-06E8-4065-8F2A-5A1BCEBA0C8A}.Debug|x86.ActiveCfg = Debug|x86
+		{F402F069-06E8-4065-8F2A-5A1BCEBA0C8A}.Debug|x86.Build.0 = Debug|x86
+		{F402F069-06E8-4065-8F2A-5A1BCEBA0C8A}.Release|x86.ActiveCfg = Release|x86
+		{F402F069-06E8-4065-8F2A-5A1BCEBA0C8A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
